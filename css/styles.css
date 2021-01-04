@@ -1,0 +1,31 @@
+body{
+    background-color:black ;
+    font-family: century gothic;
+}
+.navbar-brand img{
+    height: 35px;
+}
+.navbar-light{
+    background-color: #FFD600 ;
+}
+.mainlogo {
+    width: 100%;
+}
+.row-content{
+    margin: 50px auto;
+    padding:50px 0px;
+    border-bottom: 1px ridge  #FFD600 ;
+    min-height: 400px; 
+}
+.nav-item{
+    padding: 0px 5px;
+}
+.mission-vision{
+    color: #FFD600;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.hide{
+    display: none;
+}
