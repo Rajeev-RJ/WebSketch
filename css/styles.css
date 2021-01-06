@@ -44,3 +44,9 @@ body{
     justify-content:center;
     text-align: center;
 }
+.carousel-caption{
+    color: #FFD600;
+}
+.carousel-control-prev-icon{
+    color: #FFD600;
+}
