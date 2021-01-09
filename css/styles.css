@@ -94,3 +94,14 @@ footer{
     color:#FFD600 ;
     font-size: .75rem;
 }
+.popover-header{
+    color: black;
+    background-color:#FFD600 ;
+}
+.popover-body{
+    color: black;
+    background-color:white ;
+}
+.fa{
+    color: #FFD600;
+}
