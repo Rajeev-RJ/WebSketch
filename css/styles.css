@@ -68,3 +68,71 @@ body{
      width: 1000px;
      margin: 0 auto;
  }
+ *{
+    color:#FFD600 ;
+
+}
+
+.btn{
+    background-color: #FFD600;
+}
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Noto Serif', serif;
+}
+.contact{
+    background-color: rgb(0, 0, 0);
+    background-size: 100%.100%;
+    width: 100%;
+    height: 100vh;
+   
+}
+.head{
+    background-color: yellow;
+    border-radius: 4px;
+    margin-top: -10px;
+    margin-bottom: -15px;
+    
+}
+.fa{
+    color: yellow;
+    font-size: 35px;
+}
+
+p{
+    color: gray;
+    font-size: 15px;
+
+}
+.effect-1{
+    border: 0;
+    outline: none;
+    width: 95%;
+    padding: 7px 0;
+    border-bottom: 1px solid #FFD600;
+}
+.effect-1 ~ focus-border{
+    position: absolute; bottom: 0;
+    width: 0; height: 2px;
+    background-color: #ffff00;
+    transition: 0.4s;
+}
+.effect-1:focus~.focus-border{
+    width: 100%;
+    transition: 0.4s;
+    left: 0;
+}
+
+.btn1{
+    background: rgba(255, 255, 0, 0.959);
+    color: black;
+    border: none;
+    outline: none;
+    width: 145px;
+    height: 40px; 
+    border-radius: 7px;
+}

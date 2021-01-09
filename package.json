@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/abhishek-mullackal/WebSketch#readme",
   "devDependencies": {
+    "font-awesome": "^4.7.0",
     "lite-server": "^2.6.1"
   },
   "dependencies": {
