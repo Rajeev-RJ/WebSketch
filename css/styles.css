@@ -29,3 +29,42 @@ body{
 .hide{
     display: none;
 }
+.container{
+    color: #FFD600;
+    padding-top: 0px;
+}
+.iconify{
+    width: 200px;
+    height: 200px;
+    color: #FFD600;
+}
+.products{
+
+    padding: 50px;
+    justify-content:center;
+    text-align: center;
+}
+#expCarousel .carousel-caption{
+    color: black;
+    font-size: 2.5rem;
+    justify-content: center;
+}
+#expCarousel .carousel-item-next.carousel-item-left,
+#expCarousel .carousel-item-prev.carousel-item-right {
+-webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+ }
+ #expCarousel .carousel-item-next,
+ #expCarousel .active.carousel-item-right {
+   -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+ }
+ #expCarousel .carousel-item-prev,
+ #expCarousel  .active.carousel-item-left {
+ -webkit-transform: translate3d(0, +100%, 0);
+        transform: translate3d(0, +100, 0);
+ }
+ #expCarousel{
+     width: 1000px;
+     margin: 0 auto;
+ }
