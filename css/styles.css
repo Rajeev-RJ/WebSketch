@@ -108,3 +108,43 @@ footer .iconify,footer h5{
     color: black;
     background-color:white ;
 }
+.contact{
+    background-color: rgb(8, 8, 8);
+    color: #FFD600;
+    background-size: 100%.100%;
+    width: 100%;
+    height: 100vh;
+   
+}
+.contact .fa{
+  
+    font-size: 35px;
+}
+.effect-1{
+    border: 0;
+    outline: none;
+    width: 95%;
+    padding: 7px 0;
+    border-bottom: 1px solid #FFD600;
+}
+.effect-1 ~ focus-border{
+    position: absolute; bottom: 0;
+    width: 0; height: 2px;
+    background-color: #ffff00;
+    transition: 0.4s;
+}
+.effect-1:focus~.focus-border{
+    width: 100%;
+    transition: 0.4s;
+    left: 0;
+}
+
+.btn1{
+    background: rgba(255, 255, 0, 0.959);
+    color: black;
+    border: none;
+    outline: none;
+    width: 145px;
+    height: 40px; 
+    border-radius: 7px;
+}
