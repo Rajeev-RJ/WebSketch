@@ -85,6 +85,8 @@ footer .iconify,footer h5{
     background-color: #343434;
     justify-content: space-around;
     text-align: center;
+    padding-top: 20px;
+    min-height: 200px;
 }
 .row-content-noborder{
     margin: 50px auto;
@@ -148,3 +150,4 @@ footer .iconify,footer h5{
     height: 40px; 
     border-radius: 7px;
 }
+
