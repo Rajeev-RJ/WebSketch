@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- stylesheet-->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-md navbar-light ">
+    <a class="navbar-brand" href="#"><img src="/img/epochLogo.png" alt="epoch logo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="Navbar">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">key projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">client testimonials</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active"  href="career.html">careers</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">contact us</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <section class="Careers_Lab">
+    <h1 class="title"> Careers Lab</h1>
+    <div class="container">
+      <div class="contact-form row">
+        <div class="form-field col-lg-6">
+          <input id="name" class="input-text" type="text" name="">
+          <label for="name" class="label">Name</label>
+        </div>
+        <div class="form-field col-lg-6">
+          <input id="email" class="input-text" type="email" name="">
+          <label for="email" class="label">Email</label>
+        </div>
+        <div class="col-lg-6">
+        <select class="form-select form-select" aria-label=".form-select-sm example">
+          <option selected>Position apply</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+        </div>
+        <div>
+          <input type="file" id="real-file" hidden="hidden">
+          <button type="button" id="custom-button">UPLOAD CV</button>
+          <span id="custom-text">No file chosen, yet</span>
+        </div> 
+        <div class="form-field col-lg-12">
+          <input id="phone" class="input-text" type="phone" name="">
+          <label for="phone" class="label">Contact No</label>
+        </div>
+        <div class="form-field col-lg-12">
+          <input id="phone" class="custom-button twobtn" type="button" value="Upload" name="">
+          <input id="phone" class="submit-btn twobtn" type="submit" value="submit" name="">  
+        </div>
+      </div>
+    </div>
+    
+  </section>
+     <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+     <script src="career.js"></script>
+</body>
+</html>
