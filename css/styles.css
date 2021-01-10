@@ -1,4 +1,4 @@
-*{
+body{
 
     color:#FFD600 ;
     
@@ -161,15 +161,15 @@ footer .iconify,footer h5{
     padding-top: 50px;
     justify-content: center;
     text-align: left;
+    background-color: black;
     
 }
 #accordion .card{
-    border: #FFD600 1px solid;
-    border-top: black 1px solid;
+  
     padding: 0px;
 }
 #accordion .card-header{
-    background-color:#FFD600 ;
+    background:linear-gradient(to right,#FFD600 0%,#000000 100%); ;
     color: black;
   
 }
@@ -252,6 +252,42 @@ footer .iconify,footer h5{
 }
 .client-three{
     background-color: #E6BEFF;
+}
+.btn-info{
+    background:linear-gradient(to right,#f4524d 0%,#5543ca 100%);
+    color: floralwhite;
+    border: none;
+    font-style: bold;
+}
+
+.toast-body a{
+    color:black;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 1.1rem;
+
+}
+.toast-body{
+    text-align: center;
+    border-radius: 10px;
+ 
+}
+.toast .iconify{
+    color: black;
+    height: 20px;
+    width: 40px;
+}
+#settings-wheel{
+    max-width:500px;
+    
+}
+.error{
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+}
+.error h1{
+    font-size: 4rem;
 }
 .Careers_Lab{
     max-width: 800px;
@@ -345,4 +381,7 @@ footer .iconify,footer h5{
     border-color: rgb(236, 65, 145);
     border-radius: 5px;
     cursor: pointer;
+}
+.input-text{
+    color: #FFD600;
 }
