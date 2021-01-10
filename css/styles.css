@@ -1,4 +1,4 @@
-*{
+body{
 
     color:#FFD600 ;
     
@@ -381,4 +381,7 @@ footer .iconify,footer h5{
     border-color: rgb(236, 65, 145);
     border-radius: 5px;
     cursor: pointer;
+}
+.input-text{
+    color: #FFD600;
 }
