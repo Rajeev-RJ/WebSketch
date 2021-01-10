@@ -85,6 +85,8 @@ footer .iconify,footer h5{
     background-color: #343434;
     justify-content: space-around;
     text-align: center;
+    padding-top: 20px;
+    min-height: 200px;
 }
 .row-content-noborder{
     margin: 50px auto;
@@ -140,7 +142,7 @@ footer .iconify,footer h5{
 }
 
 .btn1{
-    background: rgba(255, 255, 0, 0.959);
+    background: #FFD600;
     color: black;
     border: none;
     outline: none;
@@ -149,6 +151,36 @@ footer .iconify,footer h5{
     border-radius: 7px;
 }
 
+<<<<<<< HEAD
+#accordion{
+    padding-top: 50px;
+    justify-content: center;
+    text-align: left;
+}
+#accordion .card{
+    border: #FFD600 1px solid;
+    border-top: black 1px solid;
+    padding: 0px;
+}
+#accordion .card-header{
+    background-color:#FFD600 ;
+    color: black;
+  
+}
+#accordion .card-body{
+    background-color:black ;
+    color: #FFD600;
+    padding: 0;
+
+}
+
+.accordion-image{
+    width: 250px;
+}
+.accordion-text{
+    padding-top:50px ;
+}
+=======
 
 
 .container {
@@ -217,3 +249,4 @@ a {
 a:hover {
     color: rgb(151, 248, 6)
 }
+>>>>>>> upstream/main
