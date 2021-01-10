@@ -16,6 +16,5 @@ $(document).ready(function(){
         $('#about-vision').addClass('hide');
         $('#header-vision').removeClass('hide')
     })
-
-
+    $(".toast").toast("show")
 });
