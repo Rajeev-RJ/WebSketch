@@ -151,11 +151,12 @@ footer .iconify,footer h5{
     border-radius: 7px;
 }
 
-<<<<<<< HEAD
 #accordion{
+
     padding-top: 50px;
     justify-content: center;
     text-align: left;
+    
 }
 #accordion .card{
     border: #FFD600 1px solid;
@@ -168,85 +169,82 @@ footer .iconify,footer h5{
   
 }
 #accordion .card-body{
-    background-color:black ;
+    background-color:black;
     color: #FFD600;
     padding: 0;
+
 
 }
 
 .accordion-image{
     width: 250px;
+
 }
 .accordion-text{
     padding-top:50px ;
 }
-=======
+#client-name{
 
-
-.container {
-    max-width: 900px;
+    font-size: 0.8rem;
+    font-weight: bold
+  
+    
 }
-
-.card {
+#position {
+    font-size: 0.7rem
+}
+.client a{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.client a:hover{
+    color: rgb(53, 52, 0)
+}
+.client{
     border-radius: 0.5rem;
-    box-shadow: #ffff0;
+    box-shadow: #ffff00;
 }
-
 @media(max-width:767px) {
-    .card {
+    .client {
         margin: 1rem 0.7rem 1rem;
         max-width: 80vw
     }
 }
-
-img {
-    width: 6.2rem;
+.client img {
+    width: 10rem;
     border-radius: 5rem;
     margin: 1rem auto 1rem auto
 }
 
-.col-md-4 {
+.client .col-md-4 {
     padding: 0 0.5rem
 }
-
-.card-title {
+.client .card-title {
     font-size: 1rem;
-    margin-bottom: 0;
+    margin-bottom: 10px;
     font-weight: bold;
-    font-family: 'IM Fell French Canon SC'
-}
 
-.card-text {
+}
+.client .card-text {
     text-align: center;
     padding: 1rem 2rem;
     font-size: 0.8rem;
     color: rgb(82, 81, 81);
     line-height: 1.4rem
 }
-
-.footer {
+.client .footer{
     border-top: none;
     text-align: center;
-    line-height: 1.2rem;
+    line-height:1.2 rem;
     padding: 2rem 0 1.4rem 0;
-    font-family: 'Varela Round'
+    color: black;
 }
-
-#name {
-    font-size: 0.8rem;
-    font-weight: bold
+.client-one{
+    background-color: #CFFCA3;
 }
-
-#position {
-    font-size: 0.7rem
+.client-two{
+    background-color: #A1EEFF;
 }
-
-a {
-    color: rgb(151, 248, 6);
-    font-weight: bold
+.client-three{
+    background-color: #E6BEFF;
 }
-
-a:hover {
-    color: rgb(151, 248, 6)
-}
->>>>>>> upstream/main
