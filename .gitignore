@@ -1,2 +1,6 @@
 node_modules
+<<<<<<< HEAD
 *.log
+=======
+*.log
+>>>>>>> origin/main

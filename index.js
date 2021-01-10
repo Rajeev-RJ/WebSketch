@@ -1,4 +1,7 @@
 $(document).ready(function(){
+    $(function () {
+        $('[data-toggle="popover"]').popover()
+      })
     $('#mission').hover(function(){
         $('#about-mission').removeClass('hide');
         $('#header-mission').addClass('hide');
@@ -13,5 +16,6 @@ $(document).ready(function(){
         $('#about-vision').addClass('hide');
         $('#header-vision').removeClass('hide')
     })
+
 
 });
