@@ -27,7 +27,7 @@
             <div class="collapse navbar-collapse" id="Navbar">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                  <a class="nav-link btn" href="index.html">home</a>
+                  <a class="nav-link" href="index.html">home</a>
               </li>
                 <li class="nav-item">
                   <a class="nav-link btn" href="projects.html">key projects</a>
@@ -36,101 +36,90 @@
                   <a class="nav-link btn" href="clientTestimonial.html">client testimonials</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link btn"  href="career.html">careers</a>
+                  <a class="nav-link"  href="career.html">careers</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link btn active" href="contactUs.html">contact us</a>
+                  <a class="nav-link btn" href="contactUs.html">contact us</a>
                 </li>
               </ul>
             </div>
         </nav>
-        <div class="modal fade" id="responseModal" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLongTitle">Thank you !</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body">
-                  <p> we will contact you soon .</p>
-                </div>
-              </div>
-            </div>
-          </div>
 
-        <div class="contact-us-div">
+
+
+        <div class="contact">
             <div class="container">
-                <div class="row row-content-noborder contact-us-introtext mt-0">
-                     <div class="col">
+               <div class="row row-conntent">
+                    <div class="content col-12">
+                        <br>
+                        <br>
                         <h2>Contact Us</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Labore doloribus.</p>
-                     </div>
-                </div>
-                <div class="row row-content-noborder mb-0">
+                    </div>
+               </div>
+            </div>
+            <div class="container">
+                <div class="row">
                     <div class="col-12 col-sm-6">
-                        <div class="contact-info row">
-                            <div class="col-12 contact-info-contents">
-    
-                                <span class="iconify" data-icon="fluent:location-12-filled" data-inline="false"></span>
-                                <h4>Address</h4>
-                                <p>Lorem ipsum dolor, <br>
-                                   sit amet consectetur,<br>
-                                   adipisicing elit.
-                                </p>   
+                        <div class="contactinfo">
+                            <div class="box">
+                                <div class="bicon"><span class="iconify" data-icon="fluent:location-12-filled" data-inline="false"></span></div>
+                                <div class="btext">
+                                    <h4>Address</h4>
+                                    <p>Lorem ipsum dolor, <br>
+                                       sit amet consectetur,<br>
+                                       adipisicing elit.
+                                    </p>   
+                                </div>
                             </div>
-                            <div class="col-12  contact-info-contents">
-                                <span class="iconify" data-icon="bx:bxs-phone-call" data-inline="false"></span>
-                                <h4>Phone</h4>
-                                <a href="tel:9595959595">9595959595</a>  
+                            <div class="box">
+                                <div class="bicon"><span class="iconify" data-icon="bx:bxs-phone-call" data-inline="false"></span></div>
+                                <div class="btext">
+                                    <h4>Phone</h4>
+                                    <p>9595959595</p>   
+                                </div>
                             </div>
-                            <div class="col-12  contact-info-contents">
-                                <span class="iconify" data-icon="dashicons:email-alt" data-inline="false"></span>
-                                <h4>Email</h4>
-                                <a href="mailto:loreum@gmail.com">loreum@gmail.com</a>   
+                            <div class="box">
+                                <div class="bicon"><span class="iconify" data-icon="dashicons:email-alt" data-inline="false"></span></div>
+                                <div class="btext">
+                                    <h4>Email</h4>
+                                    <p>loreum@gmail.com</p>   
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 contact-us-box" >
-                            <h4 >Send Message</h4>
-                            <div class="contact-us-form" >
-                                <form class="">
-                                    <div class="row">
-                              
-                                            <input class="col-9 input-box" type="text" name="" required="required" autocomplete="off">
-                                            <span class="col-12">Name</span>
-  
-                                    </div>
-                                    <div class="row">
-          
-                                            <input class="col-9 input-box"type="name" name="" required="required" autocomplete="off">
-                                            <span class="col-12"> Email</span>
-
-                                    </div>
-                                    <div class="row">
-                              
-                                            <textarea class="col-9 input-box" required="required" rows="5" autocomplete="off"></textarea>
-                                            <span class="col-12"> Enter the text here</span>
-                  
-                                    </div>
-                                    <div class="row" >
-                                        <input class="contact-us-form-btn btn btn-dark btn-lg" type="button"  value="send" data-toggle="modal" data-target="#responseModal">
-                                    </div>
-                                </form>
-                           </div>
-               
+                    <div class="col-12 col-sm-6">
+                        <div class="contactForm row">
+                            <form>
+                                <h2>Send Message</h2>
+                                <div class="inputBox">
+                                    <input type="text" name="" required="required">
+                                    <span>Full Name</span>
+                                </div>
+                                <div class="inputBox">
+                                    <input type="text" name="" required="required">
+                                    <span>Email</span>
+                                </div>
+                                <div class="inputBox">
+                                    <textarea required="required"></textarea>
+                                    <span>Type your Message...</span>
+                                </div>
+                                <div class="inputBox">
+                                    <input type="submit" name="" value="send">
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-     
-     
+
+
 
         <footer>
             <div class="container">
-              <div class="row footer-contents row-content-noborder mt-0">             
+              <div class="row footer-contents row-content-noborder" style="margin-top: 0;">             
                   <div class="col-12  col-sm-3 footer-box">
                       <h5>Links</h5>
                       <ul class="list-unstyled">
@@ -144,8 +133,8 @@
                   <div class="col-12  col-sm-3 footer-box">
                     <h5>contact us</h5>
                     <ul class="list-unstyled">
-                        <li><a href="tel:95959595"><span class="iconify" data-icon="el:phone-alt" data-inline="false"></span>  95959595</a></li>
-                        <li><a href="mailto:lorem@gmail.com;"><span class="iconify" data-icon="clarity:email-solid" data-inline="false"></span> loreum@gmail.com</a></li>
+                        <li><a href=""><span class="iconify" data-icon="el:phone-alt" data-inline="false"></span>  95959595</a></li>
+                        <li><a href="#"><span class="iconify" data-icon="clarity:email-solid" data-inline="false"></span> loreum@gmail.com</a></li>
                     </ul>
                 </div>
                 <div class="col-12  col-sm-3 footer-box">
